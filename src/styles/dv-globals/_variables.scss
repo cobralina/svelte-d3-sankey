@@ -1,0 +1,21 @@
+$min-width: 375px;
+
+// breakpoints
+$break-xs: $min-width;
+$break-sm: 620px;
+$break-md: 768px; // mobile break
+$break-lg: 1000px;
+$break-xl: 1280px;
+
+// fonts
+$sans: "DV Source Sans 3", sans-serif;
+$sans-weight: 400;
+$sans-bold: 700;
+
+$serif: "DV Source Serif 4", serif;
+$serif-weight: 400; // 500, 600, 700
+$serif-bold: 500;
+
+// 
+$font-base: 1rem;
+$line-base: 1.6;

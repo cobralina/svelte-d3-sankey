@@ -1,0 +1,32 @@
+{"nodes":[
+    {"name":"Union", "color":"#2d557a"},
+    {"name":"SPD", "color": "#ce3b3b"},
+    {"name":"Grüne", "color":"#669c54"},
+    {"name":"AfD", "color": "#93bcec"},
+    {"name":"Linke", "color":"#8b50d3"},
+    {"name":"FDP", "color":"#ddae3c"},
+    {"name":"BSW", "color":"#ac4687"},
+    {"name":"Nichtwähler", "color": "#cccccc"},
+    {"name":"Union", "color":"#2d557a"},
+    {"name":"SPD", "color": "#ce3b3b"},
+    {"name":"Grüne", "color":"#669c54"},
+    {"name":"AfD", "color": "#93bcec"},
+    {"name":"Linke", "color":"#8b50d3"},
+    {"name":"FDP", "color":"#ddae3c"},
+    {"name":"Nichtwähler", "color": "#cccccc"}
+    ],
+    "links":[
+    {"source":1,"target":9,"value":20000},
+    {"source":0,"target":11,"value":10556},
+    {"source":1,"target":10,"value":20766},
+    {"source":5,"target":8,"value":2077},
+    {"source":1,"target":12,"value":60333},
+    {"source":2,"target":11,"value":64999},
+    {"source":2,"target":8,"value":6455},
+    {"source":3,"target":8,"value":7877},
+    {"source":5,"target":9,"value":66000},
+    {"source":5,"target":12,"value":2000},
+    {"source":4,"target":13,"value":82100},
+    {"source":6,"target":10,"value":12998},
+    {"source":4,"target":14,"value":40000}
+    ]}

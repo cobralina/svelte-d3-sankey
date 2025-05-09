@@ -1,0 +1,22 @@
+/* custom styles */
+@use '../dv-globals/dv-globals' as *;
+@forward 'sanky';
+@forward 'header';
+@forward 'footer';
+
+
+
+a {
+    @include dv-txtLink;
+}
+a:visited {
+    border:0;
+}
+a:active {
+    border:0;
+}
+
+button {
+    @include dv-btnLink;
+}
+

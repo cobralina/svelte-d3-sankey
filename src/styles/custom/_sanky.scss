@@ -1,0 +1,50 @@
+@use '../dv-globals/dv-globals' as *;
+
+.node-rect {
+    fill-opacity:1;
+    transition: fill-opacity 200ms ease-in-out;
+    cursor: pointer;
+    border:0;
+  }
+
+  .node:focus {
+    outline:none;
+  }
+
+  .link {
+    cursor:pointer;
+    transition: stroke-opacity 200ms ease-in-out;
+  }
+
+  .link:focus {
+    outline: none; 
+  }
+
+  .text-partys, .text-values {
+    //cursor: pointer;
+    pointer-events:none;
+    stroke-width:3.5;
+    fill:#ffffff;
+    font-weight: 800;
+    font-size:14px;
+    font-family: $sans;
+  }
+
+  .text-partys {
+    font-size:16px;
+    @media only screen and (max-width: $break-sm) {
+      font-size: 14px;
+    }
+  }
+  .column_box {
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    .column {
+        font-size:19px;
+        font-weight: $sans-bold;
+        margin-bottom:-5px;
+    }
+}
+
+

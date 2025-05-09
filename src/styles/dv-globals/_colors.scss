@@ -1,0 +1,116 @@
+//Grafikfarben lightmode
+$blue-l: #2962A3;
+$light-blue-l: #93BCEC;
+$red-l: #A82424;
+$light-red-l: #EF8F8F;
+$green-l: #548A42;
+$light-green-l: #B1DCA3;
+$orange-l: #C24E0A;
+$light-orange-l: #F2B28C;
+$violet-l: #613399;
+$light-violet-l: #BB99E5;
+$yellow-l: #C28E0A;
+$light-yellow-l: #F2D58C;
+
+//Grafikfarben darkmode
+$blue-d: #2962A3;
+$light-blue-d: #93BCEC;
+$red-d: #A82424;
+$light-red-d: #EF8F8F;
+$green-d: #548A42;
+$light-green-d: #B1DCA3;
+$orange-d: #C24E0A;
+$light-orange-d: #F2B28C;
+$violet-d: #613399;
+$light-violet-d: #BB99E5;
+$yellow-d: #C28E0A;
+$light-yellow-d: #F2D58C;
+
+
+//lightmode
+$black-l: #212529;
+$grey-100-l: #393939;
+$grey-200-l: #555555;
+$grey-300-l: #717171;
+$grey-400-l: #8e8e8e;
+$grey-500-l: #aaaaaa;
+$grey-600-l: #c6c6c6;
+$grey-700-l: #E3E3E3;
+$grey-900-l: #F7F7F7;
+$white-l: #ffffff;
+$white-opaque-l: rgba(255, 255, 255, 0.9);
+$grey-700-opaque-l: rgba(227, 227, 227, 0.9);
+$grey-600-l-hover: #e2e2e2;
+
+//darkmode
+$black-d: #ffffff;
+$grey-100-d: #F7F7F7;
+$grey-200-d: #E3E3E3;
+$grey-300-d: #c6c6c6;
+$grey-400-d: #aaaaaa;
+$grey-500-d: #8e8e8e;
+$grey-600-d: #717171;
+$grey-700-d: #555555;
+$grey-900-d: #393939;
+$white-d: #212529;
+$white-opaque-d: rgba(33, 37, 41, 0.9);
+$grey-700-opaque-d: rgba(85, 85, 85, 0.9);
+$grey-600-d-hover: #494b4d;
+
+
+//Brand-Farben lightmode
+$faz-blue-l: #110A35;
+$faz-grey-l: #E8EDEE;
+
+//Brand-Farben darkmode
+$faz-blue-d: #E8EDEE;
+$faz-grey-d: #323D46;
+
+
+//dark- & lightmode
+$faz-grey-permanent: #E8EDEE;
+$faz-grey-permanent-hover: #e8edee80;
+
+$hover-black-permanent: #909294;
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --dv-black: #{$black-l};
+    --dv-black-hover: #{$hover-black-permanent};
+    --dv-grey-100: #{$grey-100-l};
+    --dv-grey-200: #{$grey-200-l};
+    --dv-grey-300: #{$grey-300-l};
+    --dv-grey-400: #{$grey-400-l};
+    --dv-grey-500: #{$grey-500-l};
+    --dv-grey-600: #{$grey-600-l};
+    --dv-grey-700: #{$grey-700-l};
+    --dv-grey-900: #{$grey-900-l};
+    --dv-faz-blue: #{$faz-blue-l};
+    --dv-faz-grey: #{$faz-grey-permanent};
+    --dv-white: #{$white-l};
+    --dv-white-opaque: #{$white-opaque-l};
+    --dv-grey-700-opaque: #{$grey-700-opaque-l};
+    --dv-grey-600-hover: #{$grey-600-l-hover};
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --dv-black: #{$black-d};
+    --dv-black-hover: #{$hover-black-permanent};
+    --dv-grey-100: #{$grey-100-d};
+    --dv-grey-200: #{$grey-200-d};
+    --dv-grey-300: #{$grey-300-d};
+    --dv-grey-400: #{$grey-400-d};
+    --dv-grey-500: #{$grey-500-d};
+    --dv-grey-600: #{$grey-600-d};
+    --dv-grey-700: #{$grey-700-d};
+    --dv-grey-900: #{$grey-900-d};
+    --dv-faz-blue: #{$faz-blue-d};
+    --dv-faz-grey: #{$faz-grey-permanent};
+    --dv-white: #{$white-d};
+    --dv-white-opaque: #{$white-opaque-d};
+    --dv-grey-700-opaque: #{$grey-700-opaque-d};
+    --dv-grey-600-hover: #{$grey-600-d-hover};
+  }
+}

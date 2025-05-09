@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + Svelte</title>
+  </head>
+  <body>
+   
+    <script> 
+
+    let urlParams = new URLSearchParams(window.location.search);
+
+    window.config = { direction:"", party:"" }
+    window.meta = { headline:"Wählerwanderung", kicker:"Lade...", subline:"Daten werden geladen.", past:"", current:"", source:"", author:"" }
+    window.data =  {"nodes":[],"links":[]};
+    window.id = urlParams.get('id');
+
+    </script>
+
+    <div data-version="" id="waehlerwanderung" class="wwContainer"></div>
+      
+    <script type="module" src="/src/main.js"></script>
+
+  
+  </body>
+</html>

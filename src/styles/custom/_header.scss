@@ -1,0 +1,40 @@
+@use '../dv-globals/dv-globals' as *;
+
+.header {
+    width:100%;
+    .hl_box {
+        margin:0;
+        margin-bottom:10px;
+        .wwHeadline {
+            font-size: 19px;
+            line-height: 22px;
+            font-family:$sans;
+            font-weight: $sans-bold;
+            margin:0;
+            margin-top:2px;
+        }
+        
+        .wwSubline {
+            font-size: 15px;
+            line-height: 18px;
+            font-family: $sans;
+            font-weight: $sans-weight;
+            padding-top:10px;
+            padding-bottom:10px;
+        }
+        
+        .kicker {
+            font-size: 13px;
+            line-height: 16px;
+            font-family: $sans;
+            font-weight: $sans-weight;
+            text-transform: uppercase;
+            color:var(--dv-grey-400);
+            margin:0;
+            padding:0;
+        }
+    }
+    
+}
+
+
